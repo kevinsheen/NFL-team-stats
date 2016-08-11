@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc service
- * @name nflstatsApp.current
+ * @name nflteamstatsApp.current
  * @description
  * # current
- * Factory in the nflstatsApp.
+ * Factory in the nflteamstatsApp.
  */
-angular.module('nflstatsApp')
+angular.module('nflteamstatsApp')
   .factory('current', function ($resource) {
     // Service logic
     // ...

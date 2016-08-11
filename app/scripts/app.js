@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name nflstatsApp
+ * @name nflteamstatsApp
  * @description
- * # nflstatsApp
+ * # nflteamstatsApp
  *
  * Main module of the application.
  */
 angular
-  .module('nflstatsApp', [
+  .module('nflteamstatsApp', [
     'ngAnimate',
     'ngAria',
     'ngCookies',

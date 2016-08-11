@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name nflstatsApp.controller:AboutCtrl
+ * @name nflteamstatsApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the nflstatsApp
+ * Controller of the nflteamstatsApp
  */
-angular.module('nflstatsApp')
+angular.module('nflteamstatsApp')
   .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

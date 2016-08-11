@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name nflstatsApp.controller:MainCtrl
+ * @name nflteamstatsApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the nflstatsApp
+ * Controller of the nflteamstatsApp
  */
-angular.module('nflstatsApp')
+angular.module('nflteamstatsApp')
   .controller('MainCtrl', function ($scope, current) {
     $scope.current = current.query();
   
