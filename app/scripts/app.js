@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name workspaceApp
+ * @name nflstatsApp
  * @description
- * # workspaceApp
+ * # nflstatsApp
  *
  * Main module of the application.
  */
 angular
-  .module('workspaceApp', [
+  .module('nflstatsApp', [
     'ngAnimate',
     'ngAria',
     'ngCookies',

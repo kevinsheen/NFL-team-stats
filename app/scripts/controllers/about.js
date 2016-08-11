@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name workspaceApp.controller:AboutCtrl
+ * @name nflstatsApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the workspaceApp
+ * Controller of the nflstatsApp
  */
-angular.module('workspaceApp')
+angular.module('nflstatsApp')
   .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

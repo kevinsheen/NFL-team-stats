@@ -2,17 +2,17 @@
 
 /**
  * @ngdoc function
- * @name workspaceApp.controller:MainCtrl
+ * @name nflstatsApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the workspaceApp
+ * Controller of the nflstatsApp
  */
-angular.module('workspaceApp')
+angular.module('nflstatsApp')
   .controller('MainCtrl', function ($scope, current) {
     $scope.current = current.query();
   
 $scope.league=[
-  {name : "San Francisco 49ers"},
+  {name : "San Francisco 49ers", stats : "2015 team stats"},
   {name : "Chicago Bears"},
   {name : "Cincinatti Bengals"},
   {name : "Buffalo Bills"},
@@ -49,40 +49,3 @@ $scope.league=[
 
 });
 
-/** $scope.cars = [
-        {model : "San Francisco 49ers", stats : "2015 Team Stats"},
-        {model : "Chicago Bears", stats : "white"},
-        {model : "Cincinatti Bengals", stats : "black"},
-        {model : "Chicago Bears", stats : "white"},
-        {model : "Buffalo Bills", stats : "white"},
-        {model : "Denver Broncos", stats : "white"},
-        {model : "Cleveland Browns", stats : "white"},
-        {model : "Tampa Bay Buccaneers", stats : "white"},
-        {model : "Arizona Cardinals", stats : "white"},
-        {model : "San Diego Chargers", stats : "white"},
-        {model : "Kansas City Chiefs", stats : "white"},
-        {model : "Indianapolis Colts", stats : "white"},
-        {model : "Dallas Cowboys", color : "white"},
-        {model : "Miami Dolphins", color : "white"},
-        {model : "Philadelphia Eagles", color : "white"},
-        {model : "Atlanta Falcons", color : "white"},
-        {model : "New York Giants", color : "white"},
-        {model : "Jacksonville Jaguars", color : "white"},
-        {model : "New York Jets", color : "white"},
-        {model : "Detroit Lions", color : "white"},
-        {model : "Green Bay Packers", color : "white"},
-        {model : "Carolina Panthers", color : "white"},
-        {model : "New England Patriots", color : "white"},
-        {model : "Oakland Raiders", color : "white"},
-        {model : "Los Angeles Rams", color : "white"},
-        {model : "Baltimore Ravens", color : "white"},
-        {model : "Washington Redskins", color : "white"},
-        {model : "New Orleans Saints", color : "white"},
-        {model : "Seattle Seahawks", color : "white"},
-        {model : "Pittsburgh Steelers", color : "white"},
-        {model : "Houston Texans", color : "white"}, 
-        {model : "Tennessee Titans", color : "white"}, 
-        {model : "Minnesota Vikings", color : "white"}
-        
-    ];
-    */
