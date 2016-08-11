@@ -13,7 +13,7 @@ angular.module('nflteamstatsApp')
   
 $scope.league=[
   {name : "San Francisco 49ers", stats : "Not very good stats"},
-  {name : "Chicago Bears"},
+  {name : "Chicago Bears", stats : "Jay Cutler is the worst"},
   {name : "Cincinatti Bengals"},
   {name : "Buffalo Bills"},
   {name : "Denver Broncos"},
