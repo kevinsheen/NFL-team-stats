@@ -12,7 +12,7 @@ angular.module('nflteamstatsApp')
     $scope.current = current.query();
   
 $scope.league=[
-  {name : "San Francisco 49ers", stats : "2015 team stats"},
+  {name : "San Francisco 49ers", stats : "Not very good stats"},
   {name : "Chicago Bears"},
   {name : "Cincinatti Bengals"},
   {name : "Buffalo Bills"},
