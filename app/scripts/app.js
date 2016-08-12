@@ -32,6 +32,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/team/:teamid', {
+        templateUrl: 'views/team.html',
+        controller: 'TeamCtrl',
+        controllerAs: 'team'
+      })
       .otherwise({
         redirectTo: '/'
       });

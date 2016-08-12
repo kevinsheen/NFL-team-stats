@@ -1,22 +1,25 @@
-<div ng-app class="jumbotron" ng-controller="MainCtrl">
+<div class="jumbotron" ng-controller="MainCtrl">
   
 
 <p>Select an NFL Team:</p>
 
-<select name="" id="" ng-model="selectedTeam" ng-options="team.name for team in league">
+
+
+  <div ng-repeat="conference in Teams.conferences" label="{{conference.name}}">
+    <div ng-repeat="division in conference.divisions" label="{{division.name}}">
+     
+      <ul>
+        <li ng-repeat="team in division.teams"> <a ng-click="selectTeam(team.id)">{{team.name}}</a></li>
+      </ul>
+      
+    </div> 
   
-  <option value="">Choose a Team</option>
-
-</select>
-
+   
   
-<br> 
+  </div>
+            
 
-<h1>Selected Team: {{selectedTeam.name}}</h1>
 
-<p>2015 Team Stats: {{selectedTeam.stats}}</p>
-  
 
-</div>
 
 
